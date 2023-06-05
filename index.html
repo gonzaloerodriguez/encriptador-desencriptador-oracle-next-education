@@ -10,14 +10,11 @@
     <title>Encriptador - Desencriptador de Texto</title>
 </head>
 <body class="font">
-    <div id="video-background">
-        <video autoplay muted loop>
-            <source src="/assets/1026357554-preview.mp4" type="video/mp4">
-        </video>
-        </div>
         <div class="content">
             <h1 class="title">Encriptador/Desencriptador</h1>
-            <div class="contenedorText"><input type="text" id="textoEncriptado" class="textoEncriptado">
+            <div class="contenedorText">
+                <label class="">Ingrese un texto:</label>
+                <input type="text" id="textoEncriptado" class="textoEncriptado">
                 <textarea name="resultado" id="textoDesencriptado" class="textoDesencriptado" cols="30" rows="10"></textarea></div>
             <div class="contenedorBtn">
                 <button type="button" id="botonEncriptado" class="boton">Encriptar</button>
@@ -25,7 +22,7 @@
                 <button type="button" id="botonCopiar" class="boton">Copiar</button>
                 <button type="button" id="botonReset" class="boton">Resetear</button>
             </div>
-                <p class="copyright">By Gonzalo Rodriguez motivado por Oracle Next Education</p>
+                <p class="copyright">By Gonzalo Rodriguez motivado por <a href="https://www.oracle.com/ar/education/oracle-next-education/" target="_blank" rel="noopener noreferrer">Oracle Next Education</a></p>
         </div>   
      <script src="index.js"></script>
      <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.16/dist/sweetalert2.min.js"></script>
